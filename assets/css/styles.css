@@ -1,0 +1,55 @@
+div.container{
+  background-color:black;
+  padding:20px;
+  border-radius:10px;
+}
+
+h1{
+  margin:.67em 0;
+  font-size:2em;
+  font-family:'Asap';
+  font-size:2.5em;
+  font-weight:bold;
+  margin-top:-75px;
+}
+
+div#reg_div{
+  background-color:grey;
+  padding:20px;
+  border-radius:8px;
+  max-width:450px;
+  margin:auto;
+  text-align:center;
+}
+
+.input{
+  padding:20px;
+  margin:10px;
+  max-width:400px;
+}
+
+form{
+  padding:5px;
+  margin:5px;
+}
+
+img{
+  border:0;
+  margin-top:-10px;
+}
+
+#modal_button{
+  background-color:grey;
+  color:black;
+  font-weight:bold;
+  margin-left:20px;
+}
+
+div.modal-header{
+  background-color:grey;
+}
+
+h3.text-nowrap.text-center.bg-info.modal-title{
+  background-color:grey;
+}
+

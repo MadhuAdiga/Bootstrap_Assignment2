@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regstration_form</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"><!--Include the bootstrap css file  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap|Karla"><!-- Include Google fonts   -->
+    <link rel="stylesheet" href="assets/css/styles.css"><!-- Include custom css file  -->
+</head>
+
+<body>
+    <div class="container"><img class="img-responsive" src="assets/img/logo.png" alt="Logo" width="120px" height="120px"> <!-- Defines a container to hold the page contents   -->
+        <h1 class="text-center">Create your new account<a class="btn btn-link btn-lg" role="button" href="" id="modal_button">Here!! </a></h1>
+        <div class="modal" role="dialog" tabindex="-1" id="reg_modal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content"> <!-- Modal window contains a modal body and optional modal header and footer  -->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button> <!-- Data dismissal close button closes the modal   -->
+                        <h3 class="text-nowrap text-center bg-info modal-title"><strong>Enter your registraton details</strong></h3></div>
+                    <div class="modal-body"> <!-- Modal body contains the reg form   -->
+                        <div id="reg_div">
+                            <form> <!-- Takes in the form inputs    -->
+                                <input class="form-control input-lg input" type="text" name="First Name" required="true" placeholder="Enter your First Name" autofocus="">
+                                <input class="form-control input-lg input" type="text" name="Last Name" required="true" placeholder="Enter your Last Name" autofocus="">
+                                <input class="form-control input-lg input" type="email" name="Email" required="true" placeholder="Enter your Email" autofocus="" inputmode="email">
+                                <input class="form-control input-lg input" type="password" name="Password" required="true" placeholder="Enter the password" minlength="8" autofocus="">
+                                <input class="form-control input-lg input" type="password" name="Password" required="true" placeholder="Re-enter the password" minlength="8" autofocus="">
+                                <button class="btn btn-success btn-lg" type="submit"><strong>Sign me up!</strong></button> <!-- Submit button for the form   -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script> <!-- Include the jquery library   -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script> 
+    <script src="assets/js/app.js"></script> <!-- Include custom jquery file for the modal functioning   -->
+</body>
+
+</html>
